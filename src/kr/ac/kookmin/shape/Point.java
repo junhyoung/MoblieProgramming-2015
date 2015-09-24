@@ -18,5 +18,6 @@ public class Point {
 	}
 	void setY (int y){
 		this.y=y;
+		
 	}
 }
