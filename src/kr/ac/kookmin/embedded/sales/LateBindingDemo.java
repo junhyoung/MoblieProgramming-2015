@@ -1,4 +1,4 @@
-package kr.ac.embedded.kookmin.sales;
+package kr.ac.kookmin.embedded.sales;
 
 /**
  * Demonstrates late binding.

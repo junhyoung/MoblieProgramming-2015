@@ -1,4 +1,4 @@
-package kr.ac.embedded.kookmin.sales;
+package kr.ac.kookmin.embedded.sales;
 
 /**
  * Class for a simple sale of one item with no tax, discount, or other

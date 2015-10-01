@@ -1,4 +1,4 @@
-package kr.ac.embedded.kookmin.callback;
+package kr.ac.kookmin.embedded.callback;
 
 public class CallbackTest implements OnMaxNumberCb {
 

@@ -1,4 +1,4 @@
-package kr.ac.embedded.kookmin.sales;
+package kr.ac.kookmin.embedded.sales;
 
 /**
  * Class for a sale of one item with discount expressed as a percent of the
