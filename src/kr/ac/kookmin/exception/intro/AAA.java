@@ -1,6 +1,5 @@
 package kr.ac.kookmin.exception.intro;
 
-import java.util.Scanner;
 import java.io.*;
 
 
@@ -30,6 +29,15 @@ public class AAA {
 			System.out.println("NO FILE\n");
 		}
 		catch(Exception e){
+			System.out.println("EXCEPTION");
+		}finally{
+			close(br);
+		}
+	}
+	public void close(BufferedReader temp){
+		try{
+			temp.close();
+		}catch (Exception e){
 			System.out.println("EXCEPTION");
 		}
 	}
