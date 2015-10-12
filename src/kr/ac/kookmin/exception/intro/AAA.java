@@ -25,15 +25,13 @@ public class AAA {
 			}
 			System.out.println(content);
 		}
-		catch(FileNotFoundException e){
-			System.out.println("NO FILE\n");
-		}
-		catch(Exception e){
-			System.out.println("EXCEPTION");
+		catch(IOException e){
+			System.out.println("IOException\n");
 		}finally{
 			close(br);
 		}
 	}
+	
 	public void close(BufferedReader temp){
 		try{
 			temp.close();

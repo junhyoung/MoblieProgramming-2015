@@ -35,10 +35,8 @@ public class AddLineNumber
           **/
          inputStream.close( );
          outputStream.close( );
-      }catch(FileNotFoundException e){
-    	  System.out.println("NoFIle");
-      }catch(Exception e){
-    	  System.out.println("EXCEPTION");
+      }catch(IOException e){
+    	  System.out.println("IOException");
       }
       
       /** catch() 구문 작성하시오 **/
